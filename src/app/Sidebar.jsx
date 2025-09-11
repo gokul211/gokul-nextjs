@@ -18,7 +18,7 @@ const Sidebar = () => {
       <nav>
         <ul style={{ listStyle: 'none', padding: 0 }}>
           {/* <li><Link href="/"><span style={{ color: 'white' }}>Home</span></Link></li> */}
-          <li><Link href="/Section_1"><span style={{ color: 'white' }}>Section_1</span></Link></li>
+          <li><Link href="/Section_2"><span style={{ color: 'white' }}>Section_2</span></Link></li>
           {/* <li><Link href="/Section_2"><span style={{ color: 'white' }}>Section_2</span></Link></li>
           <li><Link href="/Section_3"><span style={{ color: 'white' }}>Section_3</span></Link></li> */}
 
