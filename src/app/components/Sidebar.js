@@ -10,6 +10,7 @@ const Sidebar = () => {
         color: 'white',
         padding: '20px',
         height: '100vh',
+        position:'fixed'
         
       }}
     >

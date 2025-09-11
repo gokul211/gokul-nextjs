@@ -5,7 +5,6 @@ export default function Section2ID1() {
 
   return (
     <div id="section1-container"> 
-      <h1 className="text-5xl text-center font-extrabold text-gray-900 mb-8">Section 1</h1> 
       <div className="flex flex-col md:flex-row items-center gap-8 max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
       
         <div className="flex-shrink-0">

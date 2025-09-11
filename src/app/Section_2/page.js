@@ -16,15 +16,15 @@ export default function Section_2() {
 
   return (
     <div>
-      <div id="1" style={{ padding: "50px 0" }}>
+      <div id="1" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
         <label>Section ID 1</label>
         <Section2ID1 />
       </div>
-      <div id="2" style={{ padding: "50px 0" }}>
+      <div id="2" style={{ padding: "50px 0",textAlign:'center',fontWeight:'bold' }}>
         <label>Section ID 2</label>
         <Section2ID1 />
       </div>
-       <div id="5" style={{ padding: "50px 0" }}>
+       <div id="5" style={{ padding: "50px 0",textAlign:'center',fontWeight:'bold' }}>
         <label>Section ID 3</label>
         <Section2ID1 />
       </div>
