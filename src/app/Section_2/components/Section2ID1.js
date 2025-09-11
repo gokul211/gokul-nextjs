@@ -23,7 +23,7 @@ export default function Section2ID1() {
             {titleText}
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            Explore the wonders of the cosmos with our in-depth look at the Moon. From its ancient craters to its mysterious dark side, the Moon has captivated humanity for millennia. Learn about its formation, its phases, and its profound impact on Earth's tides and ecosystems.
+            Explore the wonders of the cosmos with our in-depth look at the Moon. From its ancient craters to its mysterious dark side, the Moon has captivated humanity for millennia. Learn about its formation, its phases, and its profound impact on Earth&apos;s tides and ecosystems.
           </p>
        
         </div>
