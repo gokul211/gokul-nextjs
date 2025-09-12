@@ -7,9 +7,8 @@ import { useEffect, useRef, useState } from "react";
 const sections = [
   { href: "/Section_1", label: "Section_1" },
   { href: "/Section_2", label: "Section_2" },
-  { href: "/Section_3", label: "Section_3" },
-  { href: "/Section_4", label: "Section_4" },
-  { href: "/Section_5", label: "Section_5" },
+  { href: "/Section_7", label: "Section_7" },
+
 ];
 
 const Sidebar = () => {
