@@ -16,7 +16,7 @@ export default function V11() {
     alt: "Sun Image",
     description: "Witness the majestic power of the Sun, the star at the heart of our solar system. Discover its fiery surface, solar flares, and its vital role in sustaining life on Earth. The Sun's energy drives weather patterns, powers photosynthesis, and illuminates our days."
   };
-
+//
   const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {

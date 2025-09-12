@@ -10,10 +10,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        <div style={{ display: 'flex', minHeight: '100vh' }}>
+      <body  className='overflow-y-auto'>
+        <div  className='sticky top-0'>
+          <div className='sticky top-0 z-999'>
           <Sidebar />
-          <main style={{ flex: 1, padding: '20px' }}>
+          </div>
+          <main >
             {children}
           </main>
         </div>
