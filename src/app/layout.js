@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body  className='overflow-y-auto'>
         <div  className='sticky top-0'>
-          <div className='sticky top-0 z-999'>
+          <div className='sticky top-0 z-999 mb-10'>
           <Sidebar />
           </div>
           <main >
