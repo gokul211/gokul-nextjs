@@ -5,10 +5,9 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 const sections = [
-  { href: "/Section_1", label: "Section_1" },
   { href: "/Section_2", label: "Section_2" },
   { href: "/Section_7", label: "Section_7" },
-
+{ href: "/Section_9", label: "Section_9" },
 ];
 
 const Sidebar = () => {

@@ -5,7 +5,7 @@ import V21 from "./V21";
 
 
 
-export default function Section_2() {
+export default function Section_7() {
   const titleText = "Moon Light";
 useEffect(() => {
     if (typeof window !== "undefined" && window.location.hash) {
@@ -19,7 +19,7 @@ useEffect(() => {
   return (
     <div id="section1-container"> 
      <div id="V21"  className="hidden md:block "style={{ padding: "50px 0",textAlign:'center',fontWeight:'bold'}}>
-        <label>Section_2 - V21</label>
+        <label>Section_7 - V21</label>
         <br></br>        <br></br>
 
       <V21 />
