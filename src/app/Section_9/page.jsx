@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React,{useEffect,useState} from "react";
 import V24 from "./V24";
+import V34 from "./V34";
 
 
 export default function Section_9() {
@@ -20,9 +21,11 @@ useEffect(() => {
     
             <div id="V24" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
         <label>Section_9 - V24</label>
-        <br></br>
-         <br></br>
       <V24 />
+      </div>
+              <div id="V24" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_9 - V34</label>
+      <V34 />
       </div>
     </div>
   );

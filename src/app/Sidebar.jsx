@@ -185,9 +185,9 @@ const MENU = [
     label: 'Section 1-15',
     href: '',
     submenu: [
-      { label: 'Section 1', href: '/Section_1' },
-      { label: 'Section 2', href: '/Section_7' },
-      { label: 'Section 3', href: '/Section_9' },
+      { label: 'Section 2', href: '/Section_2' },
+      { label: 'Section 7', href: '/Section_7' },
+      { label: 'Section 9', href: '/Section_9' },
  
     ],
   },

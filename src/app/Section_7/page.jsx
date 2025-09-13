@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React,{useEffect,useState} from "react";
 import V21 from "./V21";
+import V30 from "./V30";
 
 
 
@@ -24,7 +25,12 @@ useEffect(() => {
 
       <V21 />
       </div>
- 
+   <div id="V21"  className="hidden md:block "style={{ padding: "50px 0",textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_7 - V21</label>
+        <br></br>        <br></br>
+
+      <V30 />
+      </div>
     </div>
   );
 }
