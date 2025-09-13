@@ -23,7 +23,7 @@ useEffect(() => {
         <label>Section_9 - V24</label>
       <V24 />
       </div>
-              <div id="V24" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+              <div id="V34" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
         <label>Section_9 - V34</label>
       <V34 />
       </div>

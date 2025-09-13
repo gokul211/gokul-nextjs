@@ -21,14 +21,10 @@ useEffect(() => {
     <div id="section1-container"> 
      <div id="V21"  className="hidden md:block "style={{ padding: "50px 0",textAlign:'center',fontWeight:'bold'}}>
         <label>Section_7 - V21</label>
-        <br></br>        <br></br>
-
       <V21 />
       </div>
-   <div id="V21"  className="hidden md:block "style={{ padding: "50px 0",textAlign:'center',fontWeight:'bold'}}>
-        <label>Section_7 - V21</label>
-        <br></br>        <br></br>
-
+   <div id="V30"  className="hidden md:block "style={{ padding: "50px 0",textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_7 - V30</label>
       <V30 />
       </div>
     </div>
