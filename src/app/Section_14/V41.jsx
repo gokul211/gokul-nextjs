@@ -79,12 +79,16 @@ export default function V41() {
 
   const TestimonialCard = ({ quoteIcon, text, authorImage, authorName, authorTitle, animation }) => {
     const [isVisible, setIsVisible] = useState(false);
+    const [hasAnimated, setHasAnimated] = useState(false);
     const cardRef = useRef(null);
 
     useEffect(() => {
       const observer = new IntersectionObserver(
         ([entry]) => {
           setIsVisible(entry.isIntersecting);
+          if (entry.isIntersecting) {
+            setHasAnimated(true);
+          }
         },
         { threshold: 0.1 }
       );
@@ -103,10 +107,12 @@ export default function V41() {
     }, []);
 
     const getAnimationClasses = (animationType, isVisibleState) => {
-      if (!isVisibleState) {
-        return 'opacity-0 translate-y-full'; // Always start from bottom for mobile scroll
+      if (hasAnimated) {
+        return 'opacity-100 translate-y-0';
+      } else if (!isVisibleState) {
+        return 'opacity-0 translate-y-full';
       } else {
-        return 'animate-slide-up-slow'; // Always slide up for mobile scroll
+        return 'animate-slide-up-slow';
       }
     };
 
