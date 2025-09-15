@@ -11,7 +11,7 @@ export default function V49() {
 
   return (
     <footer
-      className="block md:hidden w-full"
+      className="w-full"      /* <-- was: "block md:hidden w-full" */
       style={{
         fontFamily: "'Manrope', sans-serif",
         backgroundImage: `linear-gradient(to bottom, rgba(30,34,45,0.6), rgba(30,34,45,0.6)), url(${bgUrl})`,
@@ -19,7 +19,8 @@ export default function V49() {
         backgroundPosition: "center center",
       }}
     >
-      <div className="max-w-md mx-auto px-6 py-14">
+      {/* outer container made responsive so content remains centered on large screens */}
+      <div className="max-w-7xl mx-auto px-6 md:px-8 lg:px-10 py-14">
         {/* Newsletter hero — same copy as V52 but scaled for mobile */}
         <div className="text-center mb-10">
           <h2
@@ -44,7 +45,7 @@ export default function V49() {
               aria-label="Email"
               required
               className="appearance-none text-black placeholder-black/70 px-4 py-2.5 bg-white/80 border border-white rounded-l-lg flex-1"
-              style={{ minWidth: 0 }}
+              style={{ minWidth: 0, maxWidth: 520 }}
             />
             <button
               type="submit"
@@ -56,7 +57,7 @@ export default function V49() {
         </div>
 
         {/* Main white card — content preserved, but inner links layout adjusted for mobile */}
-        <div className="bg-white rounded-2xl p-6 text-black shadow-md relative overflow-visible">
+        <div className="bg-white rounded-2xl p-6 text-black shadow-md relative overflow-visible max-w-[720px] mx-auto">
           {/* Left column content (logo, description, contacts) — same text */}
           <div className="flex flex-col items-center text-left">
             <img src={logoUrl} alt="Logo" width={180} height={60} loading="lazy" />
@@ -69,7 +70,7 @@ export default function V49() {
               </p>
             </div>
 
-            {/* *** ADDED HORIZONTAL LINE HERE *** */}
+            {/* horizontal line */}
             <hr className="my-4 border-t border-gray-200 w-full max-w-[360px]" />
 
             <div className="mt-5 w-full max-w-[360px] space-y-3 text-sm font-medium">
@@ -92,23 +93,8 @@ export default function V49() {
             </div>
           </div>
 
-          {/* Links area: display as two columns with dotted vertical separator in the exact same white card */}
+          {/* Links area: two columns */}
           <div className="mt-6 relative">
-            {/* dotted vertical separator at center */}
-            {/* <div
-              aria-hidden="true"
-              style={{
-                position: "absolute",
-                top: 0,
-                bottom: 0,
-                left: "50%",
-                width: 0,
-                borderLeft: "2px dotted #e5e7eb",
-                transform: "translateX(-50%)",
-              }}
-            /> */}
-
-            {/* two-column layout: left column items left-aligned, right column items right-aligned */}
             <div className="grid grid-cols-2 gap-4">
               <div className="pr-3">
                 <h3 className="text-base font-bold mb-2 text-left">Shop For</h3>
@@ -131,7 +117,7 @@ export default function V49() {
               </div>
             </div>
 
-            {/* Follow Us On: keep same items but aligned center below the two columns */}
+            {/* Follow Us On */}
             <div className="mt-5 pt-4 border-t border-gray-100">
               <h3 className="text-base font-bold mb-3 text-center">Follow Us On</h3>
               <div className="flex items-center justify-center gap-3 text-sm">
