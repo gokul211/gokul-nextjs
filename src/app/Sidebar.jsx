@@ -190,6 +190,7 @@ const MENU = [
       { label: 'Section 9', href: '/Section_9' },
  { label: 'Section 13', href: '/Section_13' },
   { label: 'Section 14', href: '/Section_14' },
+  { label: 'Section 31', href: '/Section_31' },
     ],
   },
   {
