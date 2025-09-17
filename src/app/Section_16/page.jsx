@@ -1,9 +1,11 @@
 "use client"
 import Image from "next/image";
 import React,{useEffect,useState} from "react";
-import V58 from "./V58";
-import V57 from "./V57";
-import V62 from "./V62"
+import V145 from "./V145";
+import V146 from "./V146";
+
+
+
 
 
 export default function Section_9() {
@@ -20,18 +22,15 @@ useEffect(() => {
   return (
     <div id="section1-container"> 
     
-            <div id="V58" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
-        <label>Section_31 - V58</label>
-      <V58 />
+            <div id="V146" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_16 - V146</label>
+      <V146 />
       </div>
-       <div id="V57" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
-        <label>Section_31 - V57</label>
-      <V57 />
+         <div id="V145" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_16 - V145</label>
+       <V145 />
       </div>
-         <div id="V62" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
-        <label>Section_31 - V62</label>
-      <V62 />
-      </div>
+    
              
     </div>
   );

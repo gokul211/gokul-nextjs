@@ -38,7 +38,7 @@ const V58 = () => {
                   <div className="relative">
                     <img
                       className="w-[200px] h-[200px] object-cover rounded-lg transform transition-transform duration-500 ease-out group-hover:scale-105 group-hover:brightness-110 will-change-transform"
-                      src="https://us.zohocommercecdn.com/stock_images/fashion-zs200002/zcstock-images-03.webp?storefront_domain=glamourgallery-demo.zohoecommerce.com"
+                      src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/sdmkr932daa8136d14bbb98113b4d8dac46b7?orig=true"
                       loading="lazy"
                       alt="Casual Shirts"
                       title="Casual Shirts"
@@ -62,7 +62,7 @@ const V58 = () => {
                   <div className="relative">
                     <img
                       className="w-[200px] h-[200px] object-cover rounded-lg transform transition-transform duration-500 ease-out group-hover:scale-105 group-hover:brightness-110 will-change-transform"
-                      src="https://us.zohocommercecdn.com/stock_images/fashion-zs200002/zcstock-images-04.webp?storefront_domain=glamourgallery-demo.zohoecommerce.com"
+                      src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/sdmkr01843848da3b4f859a36632baaf7ee21?orig=true"
                       loading="lazy"
                       alt="Formal Shirts"
                       title="Formal Shirts"
@@ -86,7 +86,7 @@ const V58 = () => {
                   <div className="relative">
                     <img
                       className="w-[200px] h-[200px] object-cover rounded-lg transform transition-transform duration-500 ease-out group-hover:scale-105 group-hover:brightness-110 will-change-transform"
-                      src="https://us.zohocommercecdn.com/stock_images/fashion-zs200002/zcstock-images-05.webp?storefront_domain=glamourgallery-demo.zohoecommerce.com"
+                      src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/sdmkrd847fb9d0d294affaecf9ee472d7d5f8?orig=true"
                       loading="lazy"
                       alt="Sweat Shirts"
                       title="Sweat Shirts"
@@ -110,7 +110,7 @@ const V58 = () => {
                   <div className="relative">
                     <img
                       className="w-[200px] h-[200px] object-cover rounded-lg transform transition-transform duration-500 ease-out group-hover:scale-105 group-hover:brightness-110 will-change-transform"
-                      src="https://us.zohocommercecdn.com/stock_images/fashion-zs200002/zcstock-images-06.webp?storefront_domain=glamourgallery-demo.zohoecommerce.com"
+                      src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/sdmkrfbf5351c838948628aae1800094c0d92?orig=true"
                       loading="lazy"
                       alt="Jackets"
                       title="Jackets"
@@ -134,7 +134,7 @@ const V58 = () => {
                   <div className="relative">
                     <img
                       className="w-[200px] h-[200px] object-cover rounded-lg transform transition-transform duration-500 ease-out group-hover:scale-105 group-hover:brightness-110 will-change-transform"
-                      src="https://us.zohocommercecdn.com/stock_images/fashion-zs200002/zcstock-images-03.webp?storefront_domain=glamourgallery-demo.zohoecommerce.com"
+                      src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/sdmkraa483b9700ed4ecab91903367264c356?orig=true"
                       loading="lazy"
                       alt="Casual Shirts"
                       title="Casual Shirts"
@@ -160,7 +160,7 @@ const V58 = () => {
                   <div className="relative">
                     <img
                       className="w-[200px] h-[200px] object-cover rounded-lg transform transition-transform duration-500 ease-out group-hover:scale-105 group-hover:brightness-110 will-change-transform"
-                      src="https://us.zohocommercecdn.com/stock_images/fashion-zs200002/zcstock-images-07.webp?storefront_domain=glamourgallery-demo.zohoecommerce.com"
+                      src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/8oacdca7b30af0f4b41adbd7743992ef4cfb6?orig=true"
                       loading="lazy"
                       alt="Jeans"
                       title="Jeans"
@@ -184,7 +184,7 @@ const V58 = () => {
                   <div className="relative">
                     <img
                       className="w-[200px] h-[200px] object-cover rounded-lg transform transition-transform duration-500 ease-out group-hover:scale-105 group-hover:brightness-110 will-change-transform"
-                      src="https://us.zohocommercecdn.com/stock_images/fashion-zs200002/zcstock-images-08.webp?storefront_domain=glamourgallery-demo.zohoecommerce.com"
+                      src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/8oacd3cdb617cd1bc4fdd8407f42bd9e560dd?orig=true"
                       loading="lazy"
                       alt="Casual Trousers"
                       title="Casual Trousers"
@@ -208,7 +208,7 @@ const V58 = () => {
                   <div className="relative">
                     <img
                       className="w-[200px] h-[200px] object-cover rounded-lg transform transition-transform duration-500 ease-out group-hover:scale-105 group-hover:brightness-110 will-change-transform"
-                      src="https://us.zohocommercecdn.com/stock_images/fashion-zs200002/zcstock-images-09.webp?storefront_domain=glamourgallery-demo.zohoecommerce.com"
+                      src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/8oacdb794a74626964ac4918efb46e343cec3?orig=true"
                       loading="lazy"
                       alt="Formal Trousers"
                       title="Formal Trousers"
@@ -232,7 +232,7 @@ const V58 = () => {
                   <div className="relative">
                     <img
                       className="w-[200px] h-[200px] object-cover rounded-lg transform transition-transform duration-500 ease-out group-hover:scale-105 group-hover:brightness-110 will-change-transform"
-                      src="https://us.zohocommercecdn.com/stock_images/fashion-zs200002/zcstock-images-10.webp?storefront_domain=glamourgallery-demo.zohoecommerce.com"
+                      src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/8oacdafd0cdd76335461bbfea1ec668ac0196?orig=true"
                       loading="lazy"
                       alt="Shorts"
                       title="Shorts"
@@ -256,7 +256,7 @@ const V58 = () => {
                   <div className="relative">
                     <img
                       className="w-[200px] h-[200px] object-cover rounded-lg transform transition-transform duration-500 ease-out group-hover:scale-105 group-hover:brightness-110 will-change-transform"
-                      src="https://us.zohocommercecdn.com/stock_images/fashion-zs200002/zcstock-images-11.webp?storefront_domain=glamourgallery-demo.zohoecommerce.com"
+                      src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/8oacd5e26a00e02574028a9d6dbfda4ce836d?orig=true"
                       loading="lazy"
                       alt="Joggers"
                       title="Joggers"
@@ -280,7 +280,7 @@ const V58 = () => {
                   <div className="relative">
                     <img
                       className="w-[200px] h-[200px] object-cover rounded-lg transform transition-transform duration-500 ease-out group-hover:scale-105 group-hover:brightness-110 will-change-transform"
-                      src="https://us.zohocommercecdn.com/stock_images/fashion-zs200002/zcstock-images-07.webp?storefront_domain=glamourgallery-demo.zohoecommerce.com"
+                      src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/8oacd7ee373206ad2431e8221f7e50f3f0171?orig=true"
                       loading="lazy"
                       alt="Jeans"
                       title="Jeans"
