@@ -1,6 +1,8 @@
 // app/layout.js
 import './globals.css';
 import Sidebar from './Sidebar';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 export const metadata = {
   title: 'My App',
