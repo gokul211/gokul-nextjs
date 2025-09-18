@@ -192,6 +192,7 @@ const MENU = [
   { label: 'Section 14', href: '/Section_14' },
    { label: 'Section 16', href: '/Section_16' },
   { label: 'Section 31', href: '/Section_31' },
+  { label: 'Section 53', href: '/Section_53' },
     ],
   },
   {
