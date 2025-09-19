@@ -81,7 +81,7 @@ export default function V176() {
                         backgroundPosition: "center",
                       }}
                     >
-                      <span className="offer-badge-text">50% OFF</span>
+                      {/* <span className="offer-badge-text">50% OFF</span> */}
                     </div>
                   </div>
 
