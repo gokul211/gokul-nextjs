@@ -3,6 +3,9 @@ import Image from "next/image";
 import React,{useEffect,useState} from "react";
 import V150 from "./V150";
 import V149 from "./V149";
+import V176 from "./V176";
+import V175 from "./V175";
+
 
 
 
@@ -27,6 +30,14 @@ useEffect(() => {
          <div id="V149" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
         <label>Section_53 - V149</label>
       <V149 />
+      </div>
+         <div id="V175" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_53 - V175</label>
+      <V175 />
+      </div>
+         <div id="V176" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_53 - V176</label>
+      <V176 />
       </div>
         
     
