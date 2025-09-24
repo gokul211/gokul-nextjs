@@ -195,6 +195,7 @@ const MENU = [
   { label: 'Section 31', href: '/Section_31' },
   { label: 'Section 53', href: '/Section_53' },
    { label: 'Section 54', href: '/Section_54' },
+    { label: 'Section 55', href: '/Section_55' },
     ],
   },
   {

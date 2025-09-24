@@ -3,9 +3,9 @@ import React, { useRef, useLayoutEffect, useState } from "react";
 
 export default function V176() {
   const slides = [
-    "https://gramentheme.com/html/fresheat/assets/img/offer/offerThumb1_1.png",
-    "https://gramentheme.com/html/fresheat/assets/img/offer/offerThumb1_2.png",
-    "https://gramentheme.com/html/fresheat/assets/img/offer/offerThumb1_3.png",
+    "https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/ssqogad3ce12f2d324342bf4fdfe10bd8930f?orig=true",
+    "https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/ssqogff58c21122004417a01f95ad41c856d4?orig=true",
+    "https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/ssqog1a5981a92b284285a1c7786087b31211?orig=true",
   ];
 
   const shapeUrl =

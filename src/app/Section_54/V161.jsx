@@ -59,7 +59,7 @@ export default function V161() {
         {/* Left Side (Image + Rotating Circle) */}
         <div className="relative xl:w-6/12 flex justify-start items-center">
           <img
-            src="https://gramentheme.com/html/fresheat/assets/img/testimonial/testimonialThumb1_1.png"
+            src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/ssqogc221312579bf45f09c04e8ffbd11c259?orig=true"
             alt="chef"
             className="relative z-10 w-[750px] max-w-none h-auto object-cover -ml-10"
           />

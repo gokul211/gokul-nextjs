@@ -23,12 +23,12 @@ export default function V178() {
     >
       {/* floating decorative shapes */}
       <img
-        src="https://gramentheme.com/html/fresheat/assets/img/shape/footerShape1_1.png"
+        src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/ssqog7dd1d937fb3549afbd172f4cd23d57c7?orig=true"
         alt=""
         className="hidden xl:block absolute bottom-14 left-0 w-34 opacity-90 pointer-events-none animate-[pump_3s_ease-in-out_infinite]"
       />
       <img
-        src="https://gramentheme.com/html/fresheat/assets/img/shape/footerShape1_2.png"
+        src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/ssqog773b0afd311648c08e8a36addb546165?orig=true"
         alt=""
         className="hidden xl:block absolute bottom-0 left-0 w-32 opacity-70 pointer-events-none"
       />
@@ -38,7 +38,7 @@ export default function V178() {
         className="hidden xl:block absolute right-6 top-6 w-36 opacity-80 pointer-events-none"
       />
       <img
-        src="https://gramentheme.com/html/fresheat/assets/img/shape/footerShape1_4.png"
+        src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/ssqog9b52f50328834c129d8c0b2e424723a2?orig=true"
         alt=""
         className="hidden xl:block absolute right-0 top-0 w-48 opacity-90 pointer-events-none"
       />

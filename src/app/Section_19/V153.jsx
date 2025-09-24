@@ -9,27 +9,27 @@ export default function V153() {
     {
       name: "Chicken Fried Rice",
       price: "$100.99",
-      img: "https://gramentheme.com/html/fresheat/assets/img/dishes/dishes1_1.png",
+      img: "https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/3it607646990323b44e36bdb8a5c4ca270750?orig=true",
     },
     {
       name: "Chinese Pasta",
       price: "$15.99",
-      img: "https://gramentheme.com/html/fresheat/assets/img/dishes/dishes1_2.png",
+      img: "https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/3it6006b5e40dfa6448d887f2b06a200671a7?orig=true",
     },
     {
       name: "Chicken Pizza",
       price: "$26.99",
-      img: "https://gramentheme.com/html/fresheat/assets/img/dishes/dishes1_3.png",
+      img: "https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/3it60e7243419bffe428682999b2315a53174?orig=true",
     },
     {
       name: "Chicken Noodles",
       price: "$39.00",
-      img: "https://gramentheme.com/html/fresheat/assets/img/dishes/dishes1_4.png",
+      img: "https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/3it60b43c7151634f425995f01cdbd97bbd05?orig=true",
     },
     {
       name: "Grilled Chicken",
       price: "$20.99",
-      img: "https://gramentheme.com/html/fresheat/assets/img/dishes/dishes1_5.png",
+      img: "https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/3it60c9478faa3bd340daba36ef23bb62795d?orig=true",
     },
   ];
 
@@ -38,7 +38,7 @@ export default function V153() {
       {/* shapes */}
       <div className="absolute right-0 top-10 hidden 2xl:block animate-bounce">
         <img
-          src="https://gramentheme.com/html/fresheat/assets/img/shape/popularDishesShape1_2.png"
+          src="https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/ssqoge9cd9d71e4644995881f96e3ae1bf30e?orig=true"
           alt="shape right"
           className="w-[180px] sm:w-[220px] h-auto"
         />
@@ -83,7 +83,7 @@ export default function V153() {
               }}
               onMouseEnter={(e) =>
                 (e.currentTarget.style.backgroundImage =
-                  "url('https://gramentheme.com/html/fresheat/assets/img/bg/dishesThumbBG.png')")
+                  "url('https://files-accl.zohoexternal.com/public/workdrive-external/previewdata/ssqoga707cc85311548bd8c74d142996e4c75?orig=true')")
               }
               onMouseLeave={(e) =>
                 (e.currentTarget.style.backgroundImage = "none")
