@@ -1,5 +1,4 @@
 'use client';
-
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 
@@ -15,10 +14,10 @@ export default function V207() {
     const scroller = scrollerRef.current;
     if (!container || !scroller) return;
 
-    function onScroll() {
-      const totalScrollWidth = scroller.scrollWidth;
-      const viewportWidth = window.innerWidth;
+    const totalScrollWidth = scroller.scrollWidth;
+    const viewportWidth = window.innerWidth;
 
+    function onScroll() {
       const rect = container.getBoundingClientRect();
       const start = rect.top + window.scrollY;
       const end = start + container.offsetHeight - window.innerHeight;
@@ -28,35 +27,25 @@ export default function V207() {
         1
       );
 
-      // only right gap
-      const endGap = Math.min(160, Math.round(viewportWidth * 0.06));
-
-      const maxTranslateX = Math.max(0, totalScrollWidth - viewportWidth);
-
-      // effective max scroll
-      const effectiveMax = Math.max(0, maxTranslateX - endGap);
-
-      targetX.current = -effectiveMax * progress;
+      const maxTranslateX = totalScrollWidth - viewportWidth;
+      targetX.current = -(maxTranslateX * progress);
     }
 
     function animate() {
-      currentX.current += (targetX.current - currentX.current) * 0.02;
+      currentX.current += (targetX.current - currentX.current) * 0.08;
       if (scroller) {
-        scroller.style.transform = `translate3d(${currentX.current}px, 0, 0)`;
+        scroller.style.transform = `translateX(${currentX.current}px)`;
       }
       rafId.current = requestAnimationFrame(animate);
     }
 
     window.addEventListener('scroll', onScroll, { passive: true });
-    window.addEventListener('resize', onScroll, { passive: true });
-
     onScroll();
     animate();
 
     return () => {
       window.removeEventListener('scroll', onScroll);
-      window.removeEventListener('resize', onScroll);
-      if (rafId.current) cancelAnimationFrame(rafId.current);
+      cancelAnimationFrame(rafId.current);
     };
   }, []);
 
@@ -112,39 +101,38 @@ export default function V207() {
   ];
 
   return (
-    <section ref={containerRef} className="relative h-[300vh] bg-purple-50">
+    <section ref={containerRef} className="relative h-[400vh] bg-purple-50">
       <div className="sticky top-0 h-screen flex flex-col justify-center overflow-hidden">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="mb-8 mt-15 flex flex-col gap-4 items-start md:items-center lg:items-start">
+          {/* Header (centered) */}
+          <div className="mb-10 flex flex-col items-center text-center gap-4">
             <p className="uppercase text-xl font-semibold tracking-wide text-gray-800">
               SHOP THE LATEST SWEETS
             </p>
-            <h2 className="text-3xl lg:text-5xl font-extrabold leading-tight tracking-wide text-gray-900 text-left md:text-center lg:text-left">
-              Discover the 4 hidden realms <br></br>of our Candy Kingdom
+            <h2 className="text-3xl lg:text-5xl font-extrabold leading-tight tracking-wide text-gray-900">
+              Discover the 4 hidden realms of our Candy Kingdom
             </h2>
-            <p className="text-lg max-w-4xl text-gray-700 text-left md:text-center lg:text-left">
-              Scroll down to move horizontally through the realms.Hover a card to reveal candies in all corners.
-          
+            <p className="text-lg max-w-3xl text-gray-700">
+              Scroll down to move horizontally through the realms.
+              Hover a card to reveal candies in all corners.
             </p>
           </div>
 
           {/* Horizontal scroller */}
           <div
             ref={scrollerRef}
-            className="flex will-change-transform gap-5"
+            className="flex gap-18 will-change-transform"
             style={{
-              width: 'max-content',
-              paddingRight: '6vw', // right gap only
-           
+              width: `calc(${cards.length} * 40vw + ${
+                cards.length - 1
+              } * 2rem + 20vw)`,
             }}
           >
-            {/* <h1>Hiiii</h1> */}
             {cards.map((item, i) => (
               <div
                 key={i}
-                className="shrink-0 w-[70vw] md:w-[45vw] max-w-[800px] group relative rounded-3xl bg-white shadow-lg overflow-visible ml-0 first:ml-0 md:ml-6"
+                className="shrink-0 w-[70vw] md:w-[40vw] max-w-[800px] group relative rounded-3xl bg-white shadow-lg overflow-visible"
               >
-                
                 <div
                   className="relative h-[360px] flex items-center justify-center"
                   style={{
@@ -156,27 +144,32 @@ export default function V207() {
                   <Image
                     alt={`${item.name} stamp`}
                     src={item.stamp}
-                    width={600}
-                    height={260}
+                    width={500}
+                    height={220}
                     className="relative z-10 transition-transform duration-500 group-hover:scale-[1.05] group-hover:-rotate-3"
                   />
                   <div className="pointer-events-none absolute inset-0">
-                    
                     {item.candies.map((candy, j) => {
                       let pos = '';
-                      if (j === 0) pos = 'top-0 left-0 -translate-x-6 -translate-y-6';
-                      else if (j === 1) pos = 'top-0 right-0 translate-x-6 -translate-y-6';
-                      else if (j === 2) pos = 'bottom-0 left-0 -translate-x-6 translate-y-6';
-                      else if (j === 3) pos = 'bottom-0 right-0 translate-x-6 translate-y-6';
+                      if (j === 0)
+                        pos = 'top-0 left-0 -translate-x-10 -translate-y-10';
+                      else if (j === 1)
+                        pos = 'top-0 right-0 translate-x-10 -translate-y-10';
+                      else if (j === 2)
+                        pos = 'bottom-0 left-0 -translate-x-10 translate-y-10';
+                      else if (j === 3)
+                        pos = 'bottom-0 right-0 translate-x-10 translate-y-10';
+                      else
+                        pos =
+                          'top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2';
 
                       return (
-                        
                         <Image
                           key={j}
                           alt={`candy-${j}`}
                           src={candy}
-                          width={160}
-                          height={160}
+                          width={170}
+                          height={170}
                           className={`absolute ${pos} scale-0 transition-transform duration-500 group-hover:scale-100`}
                         />
                       );
@@ -187,7 +180,6 @@ export default function V207() {
                   <h3 className="text-xl font-bold uppercase text-gray-900">
                     {item.name}
                   </h3>
-                  
                   <p className="text-base text-gray-700">{item.desc}</p>
                 </div>
               </div>
