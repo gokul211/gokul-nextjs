@@ -3,6 +3,8 @@ import Image from "next/image";
 import React,{useEffect,useState} from "react";
 import V154 from "./V154";
 import V153 from "./V153";
+import V211 from "./V211";
+import V210 from "./V210";
 
 
 
@@ -30,7 +32,16 @@ useEffect(() => {
       <V153 />
       </div>
   
-  
+    <div id="V211" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_19 - V211</label>
+      <V211 />
+      </div>
+      
+   <div id="V210" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_19 - V210</label>
+      <V210 />
+      </div> 
+      
         
     
              
