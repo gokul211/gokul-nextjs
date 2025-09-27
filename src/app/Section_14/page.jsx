@@ -4,6 +4,8 @@ import React,{useEffect,useState} from "react";
 import V41 from "./V41";
 import V178 from "./V178";
 import V177 from "./V177";
+import V219 from "./V219";
+import V218 from "./V218";
 
 
 
@@ -32,6 +34,14 @@ useEffect(() => {
             <div id="V177" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
         <label>Section_14 - V177</label>
       <V177 />
+      </div>
+            <div id="V219" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_14 - V219</label>
+      <V219 />
+      </div>
+            <div id="V218" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_14 - V218</label>
+      <V218 />
       </div>
     </div>
   );
