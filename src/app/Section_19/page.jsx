@@ -5,6 +5,8 @@ import V154 from "./V154";
 import V153 from "./V153";
 import V211 from "./V211";
 import V210 from "./V210";
+import V225 from "./V225";
+import V224 from "./V224";
 
 
 
@@ -41,9 +43,15 @@ useEffect(() => {
         <label>Section_19 - V210</label>
       <V210 />
       </div> 
-      
+       <div id="V225" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_19 - V225</label>
+      <V225 />
+      </div> 
         
-    
+    <div id="V224" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_19 - V224</label>
+      <V224 />
+      </div> 
              
     </div>
   );
