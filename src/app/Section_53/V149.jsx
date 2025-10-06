@@ -1,6 +1,6 @@
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import SwiperCore, { Autoplay } from "swiper"; // Corrected import
 import "swiper/css";
 
 export default function V149() {
