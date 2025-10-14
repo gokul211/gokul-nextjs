@@ -584,7 +584,7 @@ export default function V254() {
   }, []);
 
   return (
-    <div style={{ height: "100vh", width: "100vw", position: "relative", overflow: "auto" }}>
+    <div style={{ height: "100vh", width: "100vw", position: "relative", overflow: "hidden" }}>
       <div ref={containerRef} id="container" style={{ width: "100%", height: "100%" }} />
 
       <div ref={controllerRef} id="controller" className="controller hidden" role="button" tabIndex={0}>
