@@ -7,6 +7,8 @@ import V176 from "./V176";
 import V175 from "./V175";
 import V223 from "./V223";
 import V221 from "./V221";
+import V299 from "./V299";
+import V298 from "./V298";
 
 
 
@@ -49,8 +51,14 @@ useEffect(() => {
         <label>Section_53 - V221</label>
         <V221 />
       </div>
- 
-             
+  <div id="V299" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_53 - V299</label>
+        <V299 />
+      </div>
+              <div id="V298" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_53 - V298</label>
+        <V298 />
+      </div>
     </div>
   );
 }

@@ -10,6 +10,8 @@ import V242 from "./V242";
 import V247 from "./V247";
 import V246 from "./V246";
 import V270 from "./V270";
+import V289 from "./V289";
+import V288 from "./V288";
 // import V243 from "./V243";
 // import V250 from "./V250";
 // import V245 from "./V251";
@@ -70,6 +72,14 @@ useEffect(() => {
       <div id="V270" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
         <label>Section_54 - V270</label>
         <V270 />
+      </div>
+      <div id="V289" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_54 - V289</label>
+        <V289 />
+      </div>
+      <div id="V288" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_54 - V288</label>
+        <V288/>
       </div>
     </div>
   );
