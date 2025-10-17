@@ -3,8 +3,10 @@ import Image from "next/image";
 import React,{useEffect,useState} from "react";
 // import V253 from "./V253";
 // import V254 from "./V254";
-import V271 from "./V271";
-import V270 from "./V270";
+// import V271 from "./V271";
+// import V270 from "./V270";
+import V307 from "./V307";
+import V306 from "./V306";
 
 
 
@@ -33,15 +35,23 @@ useEffect(() => {
         <label>Section_18 - V254</label>
       <V254 />
       </div> */}
-    <div id="V271" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+    {/* <div id="V271" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
         <label>Section_56 - V271</label>
       <V271 />
       </div>
       <div id="V270" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
         <label>Section_56 - V270</label>
       <V270 />
+      </div> */}
+                <div id="V307" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_56 - V307</label>
+      <V307 />
       </div>
-             
+
+          <div id="V306" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_56 - V306</label>
+      <V306 />
+      </div>
     </div>
   );
 }
