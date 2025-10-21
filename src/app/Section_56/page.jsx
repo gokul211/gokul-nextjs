@@ -7,11 +7,13 @@ import React,{useEffect,useState} from "react";
 // import V270 from "./V270";
 // import V307 from "./V307";
 // import V306 from "./V306";
-import V308 from "./V308";
-import V309 from "./V309";
-import V310 from "./V310";
-import V311 from "./V311";
-import V312 from "./V312";
+// import V308 from "./V308";
+// import V309 from "./V309";
+// import V310 from "./V310";
+// import V311 from "./V311";
+// import V312 from "./V312";
+import V319 from "./V319";
+import V318 from "./V318";
 
 
 
@@ -58,7 +60,7 @@ useEffect(() => {
       <V306 />
       </div> */}
       
-          <div id="V308" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+          {/* <div id="V308" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
         <label>Section_56 - V308</label>
       <V308 />
       </div>
@@ -81,7 +83,18 @@ useEffect(() => {
        <div id="V312" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
         <label>Section_56 - V312</label>
       <V312 />
+      </div> */}
+
+ <div id="V319" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_56 - V319</label>
+      <V319 />
       </div>
+
+      <div id="V318" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        <label>Section_56 - V318</label>
+      <V318 />
+      </div>
+
     </div>
   );
 }
