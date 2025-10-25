@@ -190,8 +190,10 @@ const MENU = [
       { label: 'Section 7', href: '/Section_7' },
       { label: 'Section 8', href: '/Section_8' },
       { label: 'Section 9', href: '/Section_9' },
+      { label: 'Section 10', href: '/Section_10' },
  { label: 'Section 13', href: '/Section_13' },
   { label: 'Section 14', href: '/Section_14' },
+   { label: 'Section 15', href: '/Section_15' },
    { label: 'Section 16', href: '/Section_16' },
    { label: 'Section 18', href: '/Section_18' },
    { label: 'Section 19', href: '/Section_19' },
@@ -208,6 +210,7 @@ const MENU = [
       { label: 'Section 56', href: '/Section_56' },
        { label: 'Section 57', href: '/Section_57' },
        { label: 'Section 58', href: '/Section_58' },
+        { label: 'Section 60', href: '/Section_60' },
 
     ],
   },
