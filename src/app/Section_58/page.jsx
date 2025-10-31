@@ -1,7 +1,8 @@
 "use client"
 import Image from "next/image";
 import React,{useEffect,useState} from "react";
-import V321 from "./V321";
+import Doc from "./Doc";
+// import V321 from "./V321";
 // import V320 from "./V320";
 
 
@@ -23,16 +24,19 @@ useEffect(() => {
   return (
     <div id="section1-container"> 
     
-      <div id="V321" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+      {/* <div id="V321" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
         <label>Section_57 - V321</label>
       <V321 />
-      </div>
+      </div> */}
 {/* 
           <div id="V320" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
         <label>Section_57 - V320</label>
       <V320 />
       </div> */}
-
+<div id="V321" style={{ padding: "50px 0" ,textAlign:'center',fontWeight:'bold'}}>
+        {/* <label>Section_57 - V321</label> */}
+      <Doc />
+      </div>
              
     </div>
   );

@@ -9,7 +9,8 @@ module.exports = {
       animation: {
         'spin-slow': 'spin 10s linear infinite',
         'float': 'float 3s ease-in-out infinite',
-        'cir36': 'cir36 20s linear infinite',  
+        'cir36': 'cir36 20s linear infinite',
+        'bounce': 'bounce 0.6s ease-in-out',
       },
       keyframes: {
         float: {
@@ -19,6 +20,10 @@ module.exports = {
         cir36: {  
           '0%': { transform: 'rotate(0deg)' },
           '100%': { transform: 'rotate(360deg)' },
+        },
+        bounce: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-3px)' },
         },
       },
     },
